@@ -3,7 +3,7 @@
   "version": "0.2.1-wasm",
   "description": "JavaScript GIF encoding library",
   "author": "Johan Nordberg <code@johan-nordberg.com>",
-  "main": "index.js",
+  "main": "./dist/gif.js",
   "repository": "https://github.com/ebrensi/gif.js.git",
   "devDependencies": {
     "brfs": "^2.0.2",
