@@ -22,7 +22,7 @@ if [ -d ./node_modules ]; then
     --source-map dist/gif.worker.js.map \
     --source-map-url gif.worker.js.map \
     > dist/gif.worker.js
-  rm dist/_*
+  #rm dist/_*
 else
   echo "Build dependencies missing. Run npm install"
   exit 1
